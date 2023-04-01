@@ -89,13 +89,13 @@ flutter:
   fonts:
     - family: Inter
       fonts:
-        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: lib/assets/fonts/Inter-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: lib/assets/fonts/Inter-Bold.ttf
           weight: 700
     - family: Integral CF
       fonts:
-        - asset: assets/fonts/IntegralCF-Bold.ttf
+        - asset: lib/assets/fonts/IntegralCF-Bold.otf
           weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
