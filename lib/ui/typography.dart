@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutterapp/assets/colors/colors.dart';
 
 String inter = 'Inter';
@@ -9,49 +10,49 @@ class CustomTextStyles {
 
   static TextStyle h1 = TextStyle(
     fontFamily: integral,
-    fontSize: 26,
+    fontSize: 26.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.darkPurple,
   );
 
   static TextStyle h1White = TextStyle(
     fontFamily: integral,
-    fontSize: 26,
+    fontSize: 26.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.white,
   );
 
   static TextStyle h2 = TextStyle(
     fontFamily: integral,
-    fontSize: 22,
+    fontSize: 22.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.white,
   );
 
   static TextStyle mainSub = TextStyle(
     fontFamily: inter,
-    fontSize: 18,
+    fontSize:18.sp,
     fontWeight: FontWeight.w500,
     color: CustomColors.darkPurple,
   );
 
   static TextStyle placeholder = TextStyle(
     fontFamily: inter,
-    fontSize: 18,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w500,
     color: CustomColors.darkGray,
   );
 
   static TextStyle underText = TextStyle(
     fontFamily: inter,
-    fontSize: 12,
+    fontSize: 12.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.darkerGray,
   );
 
   static TextStyle underTextPurple = TextStyle(
     fontFamily: inter,
-    fontSize: 12,
+    fontSize: 12.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.purple,
   );
@@ -59,28 +60,28 @@ class CustomTextStyles {
   // onBoarding Styles
   static TextStyle onBoardingH = TextStyle(
     fontFamily: integral,
-    fontSize: 30,
+    fontSize: 30.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.white,
   );
 
   static TextStyle onBoardingHPink = TextStyle(
     fontFamily: integral,
-    fontSize: 30,
+    fontSize: 30.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.pink,
   );
 
   static TextStyle onBoardingHSub = TextStyle(
     fontFamily: integral,
-    fontSize: 16,
+    fontSize: 16.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.white,
   );
 
   static TextStyle onBoardingMain = TextStyle(
     fontFamily: inter,
-    fontSize: 16,
+    fontSize: 16.sp,
     fontWeight: FontWeight.w500,
     color: CustomColors.white,
   );
@@ -88,14 +89,14 @@ class CustomTextStyles {
   // onBoardingWindow Styles
   static TextStyle onBoardingWindowMain = TextStyle(
     fontFamily: inter,
-    fontSize: 8,
+    fontSize: 8.sp,
     fontWeight: FontWeight.w700,
     color: CustomColors.darkestGray,
   );
 
   static TextStyle onBoardingWindowSub = TextStyle(
     fontFamily: inter,
-    fontSize: 7,
+    fontSize: 7.sp,
     fontWeight: FontWeight.w500,
     color: CustomColors.darkestGray,
   );
