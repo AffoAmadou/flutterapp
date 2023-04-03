@@ -4,6 +4,7 @@ import 'package:flutterapp/assets/colors/colors.dart';
 import 'package:flutterapp/assets/images/images.dart';
 import 'package:flutterapp/ui/typography.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutterapp/widgets/button.dart';
 
 class OnboardingView extends StatefulWidget {
   @override
@@ -13,6 +14,7 @@ class OnboardingView extends StatefulWidget {
 class _OnboardingViewState extends State<OnboardingView> {
   final String titleWhite = 'PAS DE SOUS ?';
   final String titlePink = "Y'A PADSOU.";
+  final String buttonText= "C'EST PARTI !";
 
   final List<String> subtitles = [
     'Accède aux 500 bons plans qu’on te propose chaque mois',
@@ -118,22 +120,12 @@ class _OnboardingViewState extends State<OnboardingView> {
           ),
           SizedBox(height: 113.h),
           //add a button
-          Container(
-            height: 56,
-            width: 261,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15.0),
-              color: CustomColors.pink,
-            ),
-            child: TextButton(
-              onPressed: () {
-                // Navigator.pushNamed(context, '/login');
-              },
-              child: Text(
-                "C'EST PARTI !",
-                style: CustomTextStyles.onBoardingHSub,
-              ),
-            ),
+          CustomSizedBox(
+            height: 56.h,
+            width: 261.w,
+            text: buttonText,
+            backgroundColor: CustomColors.pink,
+            textStyle: CustomTextStyles.onBoardingHSub,
           ),
           SizedBox(height: 47.h),
         ],
