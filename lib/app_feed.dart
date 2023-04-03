@@ -25,7 +25,7 @@ class AppFeed extends StatelessWidget {
             // home: StartView(),
             // // home: OnboardingView(),
             //  home: SigninView(),
-            home: LoginView(),
+            // home: LoginView(),
             // home: TestView(),
             home: PlanView(),
           );
