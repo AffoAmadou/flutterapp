@@ -31,7 +31,7 @@ class CustomTextStyles {
 
   static TextStyle mainSub = TextStyle(
     fontFamily: inter,
-    fontSize:18.sp,
+    fontSize: 18.sp,
     fontWeight: FontWeight.w500,
     color: CustomColors.darkPurple,
   );
@@ -101,5 +101,19 @@ class CustomTextStyles {
     color: CustomColors.darkestGray,
   );
 
+  // comment Styles
+  static TextStyle commentProposition = TextStyle(
+    fontFamily: inter,
+    fontSize: 10.sp,
+    fontWeight: FontWeight.w500,
+    color: CustomColors.darkGray,
+  );
+
+  static TextStyle commentAuthor = TextStyle(
+    fontFamily: inter,
+    fontSize: 10.sp,
+    fontWeight: FontWeight.w700,
+    color: CustomColors.darkestGray,
+  );
   // home Styles
 }
