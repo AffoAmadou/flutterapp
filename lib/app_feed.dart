@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'views/start_view.dart';
 import 'views/onboarding_view.dart';
 import 'views/signin_view.dart';
+import 'views/login_view.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppFeed extends StatelessWidget {
@@ -20,7 +22,8 @@ class AppFeed extends StatelessWidget {
             ),
             // home: StartView(),
             // home: OnboardingView(),
-             home: SigninView(),
+            //  home: SigninView(),
+            home: LoginView(),
           );
         });
   }
