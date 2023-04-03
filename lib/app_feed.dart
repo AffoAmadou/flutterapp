@@ -21,9 +21,9 @@ class AppFeed extends StatelessWidget {
               primarySwatch: Colors.blue,
             ),
             // home: StartView(),
-            // home: OnboardingView(),
+            home: OnboardingView(),
             //  home: SigninView(),
-            home: LoginView(),
+            // home: LoginView(),
           );
         });
   }
