@@ -8,8 +8,6 @@ import 'package:flutterapp/widgets/navbar.dart';
 
 // test the navbar on a void page';
 
-import 'package:flutterapp/widgets/navbar.dart';
-
 class TestView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

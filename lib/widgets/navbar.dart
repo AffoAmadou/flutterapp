@@ -37,7 +37,7 @@ class _navbarState extends State<Navbar> {
         children: [
           iconBox(
             onPressed: () {
-              Navigator.pushNamed(context, '/home');
+              Navigator.pushNamed(context, '/start');
             },
             iconImg: Image.asset(CustomIcons.home),
           ),
@@ -47,7 +47,7 @@ class _navbarState extends State<Navbar> {
           ),
           iconBox(
             onPressed: () {
-              Navigator.pushNamed(context, '/more');
+              Navigator.pushNamed(context, '/plan');
             },
             iconImg: Image.asset(CustomIcons.plus),
           ),
@@ -56,7 +56,7 @@ class _navbarState extends State<Navbar> {
           ),
           iconBox(
             onPressed: () {
-              Navigator.pushNamed(context, '/profile');
+              Navigator.pushNamed(context, '/singin');
             },
             iconImg: Image.asset(CustomIcons.profile),
           )
