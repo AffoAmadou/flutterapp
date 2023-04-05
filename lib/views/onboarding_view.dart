@@ -14,7 +14,7 @@ class OnboardingView extends StatefulWidget {
 class _OnboardingViewState extends State<OnboardingView> {
   final String titleWhite = 'PAS DE SOUS ?';
   final String titlePink = "Y'A PADSOU.";
-  final String buttonText= "C'EST PARTI !";
+  final String buttonText = "C'EST PARTI !";
 
   final List<String> subtitles = [
     'Accède aux 500 bons plans qu’on te propose chaque mois',
@@ -126,6 +126,7 @@ class _OnboardingViewState extends State<OnboardingView> {
             text: buttonText,
             backgroundColor: CustomColors.pink,
             textStyle: CustomTextStyles.onBoardingHSub,
+            
           ),
           SizedBox(height: 47.h),
         ],
