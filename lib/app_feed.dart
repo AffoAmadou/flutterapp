@@ -5,6 +5,8 @@ import 'views/test.dart';
 import 'views/plan.dart';
 import 'views/signin_view.dart';
 import 'views/login_view.dart';
+import 'views/addplan_view.dart';
+
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -23,11 +25,12 @@ class AppFeed extends StatelessWidget {
               primarySwatch: Colors.blue,
             ),
             // home: StartView(),
-            // // home: OnboardingView(),
+              // home: OnboardingView(),
             //  home: SigninView(),
             // home: LoginView(),
             // home: TestView(),
-            home: PlanView(),
+            // home: PlanView(),
+            home: AddPlanView(),
           );
         });
   }
