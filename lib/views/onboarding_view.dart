@@ -120,7 +120,7 @@ class _OnboardingViewState extends State<OnboardingView> {
           ),
           SizedBox(height: 113.h),
           //add a button
-          CustomSizedBox(
+          CustomButton(
             height: 56.h,
             width: 261.w,
             text: buttonText,
