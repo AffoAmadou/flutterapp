@@ -4,6 +4,8 @@ import 'views/onboarding_view.dart';
 import 'views/plan.dart';
 import 'views/signin_view.dart';
 import 'views/login_view.dart';
+import 'views/addplan_view.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
