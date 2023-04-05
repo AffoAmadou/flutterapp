@@ -103,7 +103,7 @@ class _LoginFormState extends State<LoginForm> {
           ),
           SizedBox(height: 12.h),
           Center(
-            child: CustomSizedBox(
+            child: CustomButton(
               text: inscriptioText,
               backgroundColor: CustomColors.purple,
               height: 56.h,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/assets/colors/colors.dart';
 
-class CustomSizedBox extends StatelessWidget {
+class CustomButton extends StatelessWidget {
   final String text;
   final Color backgroundColor;
   final double height;
@@ -9,7 +9,7 @@ class CustomSizedBox extends StatelessWidget {
   final BorderRadius borderRadius;
   final TextStyle textStyle;
 
-  const CustomSizedBox({
+  const CustomButton({
     Key? key,
     required this.text,
     required this.backgroundColor,

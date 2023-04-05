@@ -127,14 +127,15 @@ class _RegistrationFormState extends State<RegistrationForm> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("En t’inscrivant, tu acceptes les Conditions générales d’utilisation de Padsou",
+                Text(
+                    "En t’inscrivant, tu acceptes les Conditions générales d’utilisation de Padsou",
                     style: CustomTextStyles.underText),
               ],
             ),
           ),
           SizedBox(height: 12.h),
           Center(
-            child: CustomSizedBox(
+            child: CustomButton(
               text: inscriptioText,
               backgroundColor: CustomColors.purple,
               height: 56.h,
@@ -144,7 +145,6 @@ class _RegistrationFormState extends State<RegistrationForm> {
           )
         ],
       ),
-      
     );
   }
 }

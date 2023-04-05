@@ -14,7 +14,7 @@ class OnboardingView extends StatefulWidget {
 class _OnboardingViewState extends State<OnboardingView> {
   final String titleWhite = 'PAS DE SOUS ?';
   final String titlePink = "Y'A PADSOU.";
-  final String buttonText= "C'EST PARTI !";
+  final String buttonText = "C'EST PARTI !";
 
   final List<String> subtitles = [
     'Accède aux 500 bons plans qu’on te propose chaque mois',
@@ -120,7 +120,7 @@ class _OnboardingViewState extends State<OnboardingView> {
           ),
           SizedBox(height: 113.h),
           //add a button
-          CustomSizedBox(
+          CustomButton(
             height: 56.h,
             width: 261.w,
             text: buttonText,

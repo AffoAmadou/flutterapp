@@ -115,5 +115,26 @@ class CustomTextStyles {
     fontWeight: FontWeight.w700,
     color: CustomColors.darkestGray,
   );
+
+  static TextStyle PlanEmphasis = TextStyle(
+    fontFamily: integral,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w700,
+    color: CustomColors.darkestGray,
+  );
+  static TextStyle PlanButtonText = TextStyle(
+    fontFamily: integral,
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w400,
+    color: CustomColors.white,
+  );
+
+  static TextStyle PlanTitleSub = TextStyle(
+    fontFamily: inter,
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w700,
+    color: CustomColors.white,
+  );
+
   // home Styles
 }
