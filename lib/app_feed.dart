@@ -28,7 +28,7 @@ class AppFeed extends StatelessWidget {
               builder: (context, snapshot) {
                 if (snapshot.hasData) {
                   if (snapshot.data == true) {
-                    return AddPlanView();
+                    return OnboardingView();
                   } else {
                     return StartView();
                   }
