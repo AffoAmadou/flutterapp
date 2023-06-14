@@ -141,6 +141,10 @@ class _RegistrationFormState extends State<RegistrationForm> {
               height: 56.h,
               width: 327.w,
               textStyle: CustomTextStyles.onBoardingHSub,
+              //onpressed go to plan page
+              onPressed:(){
+                Navigator.pushNamed(context, '/plan');
+              }
             ),
           )
         ],

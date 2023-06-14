@@ -102,7 +102,7 @@ class _OnboardingViewState extends State<OnboardingView> {
                         color: CustomColors.white,
                       ),
                       height: 250.h,
-                      width: 245.w,
+                      width: 250.w,
                     ),
                     const SizedBox(height: 20.0),
                     SizedBox(
@@ -126,6 +126,7 @@ class _OnboardingViewState extends State<OnboardingView> {
             text: buttonText,
             backgroundColor: CustomColors.pink,
             textStyle: CustomTextStyles.onBoardingHSub,
+            onPressed:(){},
             
           ),
           SizedBox(height: 47.h),

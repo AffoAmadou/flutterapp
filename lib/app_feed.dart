@@ -30,7 +30,7 @@ class AppFeed extends StatelessWidget {
                   if (snapshot.data == true) {
                     return OnboardingView();
                   } else {
-                    return StartView();
+                    return LoginView();
                   }
                 } else {
                   return CircularProgressIndicator();

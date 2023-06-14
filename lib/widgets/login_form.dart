@@ -109,6 +109,15 @@ class _LoginFormState extends State<LoginForm> {
               height: 56.h,
               width: 327.w,
               textStyle: CustomTextStyles.onBoardingHSub,
+            //  on pressed go to plan view
+              onPressed: () {
+                if (_formKey.currentState!.validate()) {
+                  _formKey.currentState!.save();
+                  print('First Name: $_firstName');
+                  print('Last Name: $_lastName');
+                  print('Email: $_email');
+                }
+              },
             ),
           )
         ],

@@ -163,6 +163,7 @@ class _PlanViewState extends State<PlanView> {
                   height: 56.h,
                   width: 313.w,
                   textStyle: CustomTextStyles.PlanButtonText,
+                  onPressed:(){},
                 ),
                 const SizedBox(
                   height: 30, // Add space below the button
